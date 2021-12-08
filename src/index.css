@@ -18,8 +18,79 @@
   width: 80%;
   text-align: center;
   font-size: 25px;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
 .head-cart {
   width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  text-align: right;
+  padding-right: 5px;
+}
+.MuiSvgIcon-root{
+  text-align: right;
+  margin-top: 13px;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+.head-cart>.count{
+  text-align: right;
+  margin-top: 11px;
+  padding-left: 5px;
+  color: #fff;
+  font-size: 22px;
+}
+@media(min-width: 400px){
+  .head-title{
+    width: 90%;
+  }
+  .head-cart{
+    width: 10%;
+  }
+}
+
+@media(min-width: 900px){
+  .head-title{
+    width: 95%;
+  }
+  .head-cart{
+    width: 5%;
+  }
+}
+.home-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  overflow-wrap: break-word;
+}
+.item-wrapper{
+  height: 200px;
+  width: 200px;
+}
+.item-wrapper:hover{
+  box-shadow: 1px 1px 7px 2px #ddd;
+}
+.item-image{
+  height: 150px;
+  width: 150px;
+  margin: 25px 0px 0px 25px;
+  border-radius: 50%;
+}
+.item-name{
+  text-align: center;
+  color: #000000;
+}
+.item-link{
+  box-shadow: 1px 1px 7px 2px #ddd;
+  border-radius: 3px;
+  margin: 10px 35px;
+  text-decoration: none;
 }
